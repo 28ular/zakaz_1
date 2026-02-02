@@ -34,3 +34,22 @@ body {
     border: none;
     border-radius: 5px;
 }
+
+@media (max-width:  360px) {
+    .card {
+        width: 200px;
+        height: 200px;
+        background: #000;
+        gap: 10px;
+    }
+    .card button {
+        width: 100px;
+        height: 20px;
+    }
+    .card input {
+        width: 150px;
+        height: 15px;
+        border: none;
+        border-radius: 3px;
+    }
+}

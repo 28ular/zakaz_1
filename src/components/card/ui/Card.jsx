@@ -21,9 +21,16 @@ export const Card = () => {
 
     }
 
+    const scroll = () => {
+        document.body.scrollIntoView({behavior: "smooth"});
+        document.body.style.top = '0'
+
+    }
+
     return (
         <>
             <Header/>
+            <button>scroll</button>
             <div className="card">
                 <input
                     type="text"

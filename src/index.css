@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: grey;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 100px auto ;
+}
+.card button {
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    opacity: 0.2;
+    transition: opacity 0.2s;
+}
+.card button:hover {
+    opacity: 1;
+}
+.card input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
